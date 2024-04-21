@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [],
   "author": "",
