@@ -54,7 +54,7 @@ export default function Mrp() {
       <h1
         data-aos="fade-up"
         data-aos-anchor-placement="top-bottom"
-        className="font-semibold text-4xl sm:text-6xl text-center text-white absolute z-20 top-28 w-full"
+        className="font-semibold text-4xl sm:text-6xl text-center text-amber-200 absolute z-20 top-28 w-full"
       >
         Mars Rover Photos
       </h1>

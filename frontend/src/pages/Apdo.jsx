@@ -53,7 +53,7 @@ export default function Apdo() {
       <h1
         data-aos="fade-up"
         data-aos-anchor-placement="top-bottom"
-        className="font-semibold text-4xl sm:text-6xl text-center text-white absolute z-20 top-28 w-full"
+        className=" font-semibold text-4xl sm:text-6xl text-center text-orange-300 absolute z-20 top-28 w-full "
       >
         Astronomy Picture of the Day
       </h1>
@@ -72,7 +72,7 @@ export default function Apdo() {
               data-aos-anchor-placement="top-bottom"
               className="max-w-3xl bg-non border-none mt-36 sm:mt-0"
             >
-              <h5 className="z-20 text-2xl font-bold tracking-tight text-slate-50 dark:text-white">
+              <h5 className="z-20 mt-20 sm:mt-0 text-2xl font-bold tracking-tight text-slate-50 dark:text-white">
                 {apiData.title}
               </h5>
               <p className=" font-normal text-slate-50 dark:text-gray-400">
